@@ -45,7 +45,7 @@ def update_price(products_list):
             break
             
     if found_product == None:
-        print("Không tìm thấy sản phẩm mang mã " + id + " trong hệ thống!")
+        print(f"Không tìm thấy sản phẩm mang mã {product_id} trong hệ thống!")
         return
     
     while True:
